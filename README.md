@@ -25,10 +25,10 @@
 3. 如果我太久没更新，Webdriver版本可能会过时，很着急需要用的话可以前往[Chrome for Testing availability](https://googlechromelabs.github.io/chrome-for-testing/#stable)下载最新Stable版chromedriver-win64替换掉`chromedriver-win64`里和`dist\chromedriver-win64`的文件哈。
 
 # 有的没的
-我的文件还很粗糙，非常感谢[ravizhan](https://github.com/ravizhan)大佬提供的API！您说的
+我的文件还很粗糙，非常感谢[ravizhan](https://github.com/ravizhan)大佬提供的API！您说：
 > 个人认为除了登录没必要用selenium
 我的思路是把要下的音频加歌单里，然后用xpath解析html来提取 文件名和id
 
 我已经尝试过了，使用Requests即使是携带Cookies和Headers都没办法获取到API中的SoundUrl或VideoUrl！~白嫖~不太可行。如果有更好的方法的话也欢迎大家在 Pull requests 和 Issues 中 告诉我喔！
 
-## 项目地址 [Missevan_DL](https://github.com/Ataidawa/Missevan_DL)
+### 本项目地址 [Missevan_DL](https://github.com/Ataidawa/Missevan_DL)
